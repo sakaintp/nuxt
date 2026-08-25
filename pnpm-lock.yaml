@@ -80,8 +80,8 @@ catalogs:
       specifier: ^0.5.10
       version: 0.5.10
     '@nuxt/cli':
-      specifier: npm:@nuxt/cli-nightly@^4.0.0-20260824-100352-14c268e
-      version: 4.0.0-20260824-100352-14c268e
+      specifier: npm:@nuxt/cli-nightly@^4.0.0-20260825-081228-2e29f1f
+      version: 4.0.0-20260825-093611-2e29f1f
     '@nuxt/devtools':
       specifier: ^4.0.0-alpha.15
       version: 4.0.0-alpha.15
@@ -393,8 +393,8 @@ catalogs:
       specifier: 20.11.6
       version: 20.11.6
     html-validate:
-      specifier: 11.9.0
-      version: 11.9.0
+      specifier: 11.10.0
+      version: 11.10.0
     htmlnano:
       specifier: 3.4.0
       version: 3.4.0
@@ -613,7 +613,7 @@ importers:
         version: 8.0.3(supports-color@10.2.2)
       '@nuxt/cli':
         specifier: catalog:build
-        version: '@nuxt/cli-nightly@4.0.0-20260824-100352-14c268e(@nuxt/schema@packages+schema)(jiti@2.7.0)(oxc-parser@0.146.0)(rolldown@1.2.5)'
+        version: '@nuxt/cli-nightly@4.0.0-20260825-093611-2e29f1f(@nuxt/schema@packages+schema)(jiti@2.7.0)(oxc-parser@0.146.0)(rolldown@1.2.5)'
       '@nuxt/eslint-config':
         specifier: catalog:dev
         version: 1.17.0(@typescript-eslint/utils@8.67.0(eslint@10.9.0(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@6.0.3))(@vue/compiler-sfc@3.5.41)(eslint@10.9.0(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@6.0.3)
@@ -1022,7 +1022,7 @@ importers:
         version: 0.5.10(@rspack/core@2.1.10(@swc/helpers@0.5.23))(esbuild@0.28.2)(rolldown@1.2.5)(rollup@4.62.5)(vite@8.2.2)(webpack@5.109.2(cssnano@8.0.8(postcss@8.5.26))(csso@5.0.5)(esbuild@0.28.2)(lightningcss@1.33.0)(postcss@8.5.26))
       '@nuxt/cli':
         specifier: catalog:build
-        version: '@nuxt/cli-nightly@4.0.0-20260824-100352-14c268e(@nuxt/schema@packages+schema)(jiti@2.7.0)(oxc-parser@0.146.0)(rolldown@1.2.5)'
+        version: '@nuxt/cli-nightly@4.0.0-20260825-093611-2e29f1f(@nuxt/schema@packages+schema)(jiti@2.7.0)(oxc-parser@0.146.0)(rolldown@1.2.5)'
       '@nuxt/devtools':
         specifier: catalog:build
         version: 4.0.0-alpha.15(fd861e087c132065d999cfec008cdee3)
@@ -1514,7 +1514,7 @@ importers:
         version: 0.4.3
       html-validate:
         specifier: catalog:dev
-        version: 11.9.0(@vitest/expect@4.1.11)(vitest@4.1.11)
+        version: 11.10.0(@vitest/expect@4.1.11)(vitest@4.1.11)
       htmlnano:
         specifier: catalog:dev
         version: 3.4.0(cssnano@8.0.8(postcss@8.5.26))(postcss@8.5.26)(svgo@4.0.2)(terser@5.50.0)(typescript@6.0.3)
@@ -3067,8 +3067,8 @@ packages:
     resolution: {integrity: sha512-llZkSzeTsimFx64U+ThT2xQM2uEce8GIQUYvxgbB6ZFvBhV2LP9LeJJb3HT+syG0uCFLsTCHjV9SfC0WNU1vtA==}
     engines: {node: ^22.22.2 || ^24.15.0 || >=26.0.0}
 
-  '@nuxt/cli-nightly@4.0.0-20260824-100352-14c268e':
-    resolution: {integrity: sha512-VFxQZKz1TwYcfDw/eMjb3y9dKVMniXZAkETvGsNn9pUX/pnUZ3/wg7+IRj0n+zG+h/3BXwxLkrMzrCk4CVhXFQ==}
+  '@nuxt/cli-nightly@4.0.0-20260825-093611-2e29f1f':
+    resolution: {integrity: sha512-/d87HXl486J57NO0AtPGkfIvJ6mqe4pq/+YXkD2ZFzS/Xkh7oDLvCeCSMZHqwwmCK7LrSwjYj7z4IVWtBNeVuA==}
     engines: {node: ^22.19.0 || ^24.11.0 || >=26.0.0}
     hasBin: true
     peerDependencies:
@@ -6761,8 +6761,8 @@ packages:
   html-escaper@3.0.3:
     resolution: {integrity: sha512-RuMffC89BOWQoY0WKGpIhn5gX3iI54O6nRA0yC124NYVtzjmFWBIiFd8M0x+ZdX0P9R4lADg1mgP8C7PxGOWuQ==}
 
-  html-validate@11.9.0:
-    resolution: {integrity: sha512-1Cb59pOtvIUSkV+os+YNqYyhueSYrErkABIAWObjSNv5V84TlRLLOSQrCc9y8A93zqtMcOCxZ/MdFqo63nx14w==}
+  html-validate@11.10.0:
+    resolution: {integrity: sha512-IqQ8yZl4jzjXrx+M1XXPmpN4DkvKfHHM8pIL3Z3UUpFeckc4YUSrrWEDJ94i19txKtR9NK+g2UZEKeE0TnbNjQ==}
     engines: {node: ^22.22.0 || >= 24.8.0}
     hasBin: true
     peerDependencies:
@@ -11481,7 +11481,7 @@ snapshots:
     dependencies:
       which: 7.0.0
 
-  '@nuxt/cli-nightly@4.0.0-20260824-100352-14c268e(@nuxt/schema@packages+schema)(jiti@2.7.0)(oxc-parser@0.146.0)(rolldown@1.2.5)':
+  '@nuxt/cli-nightly@4.0.0-20260825-093611-2e29f1f(@nuxt/schema@packages+schema)(jiti@2.7.0)(oxc-parser@0.146.0)(rolldown@1.2.5)':
     dependencies:
       '@clack/prompts': 1.7.0
       args-tokenizer: 0.3.0
@@ -15335,7 +15335,7 @@ snapshots:
 
   html-escaper@3.0.3: {}
 
-  html-validate@11.9.0(@vitest/expect@4.1.11)(vitest@4.1.11):
+  html-validate@11.10.0(@vitest/expect@4.1.11)(vitest@4.1.11):
     dependencies:
       '@html-validate/stylish': 6.0.0
       '@sidvind/better-ajv-errors': 7.0.0(ajv@8.20.0)

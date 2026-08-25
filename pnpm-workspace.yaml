@@ -134,7 +134,7 @@ catalogs:
   build:
     '@ampproject/remapping': ^2.3.0
     '@dxup/nuxt': ^0.5.10
-    '@nuxt/cli': npm:@nuxt/cli-nightly@^4.0.0-20260824-100352-14c268e
+    '@nuxt/cli': npm:@nuxt/cli-nightly@^4.0.0-20260825-081228-2e29f1f
     '@nuxt/devtools': ^4.0.0-alpha.15
     '@nuxt/telemetry': ^2.8.0
     '@vue/shared': ^3.5.41
@@ -243,7 +243,7 @@ catalogs:
     h3: 2.0.1-rc.22 # intentionally pinned to match nitro's dependency
     h3-next: 'npm:h3@2.0.1-rc.22' # intentionally pinned to match nitro's dependency
     happy-dom: 20.11.6
-    html-validate: 11.9.0
+    html-validate: 11.10.0
     htmlnano: 3.4.0
     installed-check: 11.0.0
     knip: 6.32.2
